@@ -1,0 +1,2 @@
+# Meteoro_Pred_Sundarban
+This project is focused on predicting the meteorological status of the largest mangrove forest in the world "Sundarban". The primary tasks of the project will be, data cleaning feature selection / extraction, a statistical representation of the data, regression analysis on the data, cross-validation, data visualization, experimental result representation and Conclusion of the result
