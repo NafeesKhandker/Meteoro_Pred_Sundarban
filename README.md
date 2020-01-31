@@ -39,7 +39,8 @@ sudo apt-get update
 ### Pycharm Installation:
 1. Details of Pycharm installation in Ubuntu 18.04 can be found in this video: https://www.youtube.com/watch?v=cVROiVgR_qg&t=364s 
 2. After the installation of Pycharm, it is important to check that the Project Interpreter is working correctly. To check that please go to:
-```File > Settings > Project:"your project name" > Project Interpreter
+```sh
+File > Settings > Project:"your project name" > Project Interpreter
 ```
 3. The defaulf Python3 verson comes with Ubuntu 18.04 is Python 3.6 and it should be shown as interpreter.
 
