@@ -1,11 +1,13 @@
 from Load_Dataset import load_dataset
-import numpy as np
+import numpy as obj_numpy
+
 
 def clean():
-    weather = load_dataset("Datasets/Weather(Khulna).csv")
+    weather_data = load_dataset("Datasets/Weather(Khulna).csv")
     # Handling missing value
-    print(weather.loc[weather['mintemp'] == '****'].count())
-    weather = weather.replace('****', np.nan)
-    print("Weather\n", weather.isnull().sum())
+    print(weather_data.loc[weather_data['mintemp'] == '****'].count())
+    weather_data = weather_data.replace('****', obj_numpy.nan)
+    print("Weather\n", weather_data.isnull().sum())
+
 
 clean()
